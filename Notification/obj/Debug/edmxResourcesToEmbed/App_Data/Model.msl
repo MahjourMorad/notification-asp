@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ExamModelStoreContainer" CdmEntityContainer="ExamEntities">
+    <EntitySetMapping Name="simulation">
+      <EntityTypeMapping TypeName="ExamModel.simulation">
+        <MappingFragment StoreEntitySet="simulation">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="loanAmount" ColumnName="loanAmount" />
+          <ScalarProperty Name="loanTerm" ColumnName="loanTerm" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="bank" ColumnName="bank" />
+          <ScalarProperty Name="category" ColumnName="category" />
+          <ScalarProperty Name="results" ColumnName="results" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
